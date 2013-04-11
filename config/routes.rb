@@ -1,4 +1,12 @@
 RailsMovieApp::Application.routes.draw do
+  get "new" => "movies#new"
+
+  get "edit" => "movies#edit"
+
+  get "delete" => "movies#delete"
+
+  get "show" => "movies#show"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
